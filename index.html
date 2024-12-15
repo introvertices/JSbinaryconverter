@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<style>
+    a:link{
+        color:antiquewhite
+    }
+    a:hover{
+        color:aquamarine
+    }
+    a:visited{
+        color:antiquewhite
+    }
+</style>
+
+
+<body style="font-family: Verdana, Geneva, Tahoma, sans-serif; background-color:black">
+    <div id="container" style="margin:auto; margin-top:20px; width:400px; height: 400px; padding: 20px; text-align:center; background-color:blueviolet; color:blanchedalmond; border-radius:15%">
+
+        <h2>Convert binary to decimal</h2><br>
+        <input id = "binaryNum" type="text" placeholder="10101010">
+        <button id="submitButt">Convert</button>
+        <br><br>
+        <div id = "decResult"></div>
+        <br><br><br><br><br><br><br><br><br><br><br><br>
+        <div><a href="https://github.com/introvertices">https://github.com/introvertices</a></div>
+
+    </div>
+
+    <script src=script.js></script>
+    <script>document.getElementById('submitButt').addEventListener('click', convert)</script>
+</body>
+</html>
